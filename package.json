@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "cross-env ts-node ./script/build",
-    "deploy": "graph deploy uniswap/v3 --ipfs http://34.10.242.87:5001 --node http://34.29.162.34:8020 v3-subgraph.yaml",
+    "deploy": "graph deploy uniswap/v3 --ipfs http://34.29.162.34:5001 --node http://34.10.242.87:8020 v3-subgraph.yaml",
     "lint": "eslint . --ext .ts --fix"
   },
   "devDependencies": {
